@@ -1,3 +1,5 @@
+import "@/lib/orpc.server"; // Prerendering
+
 import { AuthProvider } from "@/components/ui/auth-provider";
 import { ThemeProvider } from "@/components/ui/theme-provider";
 import type { Metadata } from "next";
